@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.be4dae3e.chunk.css",
-    "main.js": "/static/js/main.6db74537.chunk.js",
-    "main.js.map": "/static/js/main.6db74537.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e087d9e9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e087d9e9.js.map",
-    "static/js/2.f26d1a5d.chunk.js": "/static/js/2.f26d1a5d.chunk.js",
-    "static/js/2.f26d1a5d.chunk.js.map": "/static/js/2.f26d1a5d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5762ef7280e7ae1d3bd0024ca1729b55.js": "/precache-manifest.5762ef7280e7ae1d3bd0024ca1729b55.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.be4dae3e.chunk.css.map": "/static/css/main.be4dae3e.chunk.css.map",
-    "static/js/2.f26d1a5d.chunk.js.LICENSE.txt": "/static/js/2.f26d1a5d.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/background.8ed0096d.png",
-    "static/media/goomba.webp": "/static/media/goomba.e08e6353.webp",
-    "static/media/bingo.css": "/static/media/super-mario-maker.52d3b43a.ttf"
+    "main.css": "/react-mario-maker-bingo/static/css/main.6dbc20d2.chunk.css",
+    "main.js": "/react-mario-maker-bingo/static/js/main.bcd09c6f.chunk.js",
+    "main.js.map": "/react-mario-maker-bingo/static/js/main.bcd09c6f.chunk.js.map",
+    "runtime-main.js": "/react-mario-maker-bingo/static/js/runtime-main.bca092e1.js",
+    "runtime-main.js.map": "/react-mario-maker-bingo/static/js/runtime-main.bca092e1.js.map",
+    "static/js/2.385997b5.chunk.js": "/react-mario-maker-bingo/static/js/2.385997b5.chunk.js",
+    "static/js/2.385997b5.chunk.js.map": "/react-mario-maker-bingo/static/js/2.385997b5.chunk.js.map",
+    "index.html": "/react-mario-maker-bingo/index.html",
+    "precache-manifest.8e3d5f0170e1c34aae641fad33c10344.js": "/react-mario-maker-bingo/precache-manifest.8e3d5f0170e1c34aae641fad33c10344.js",
+    "service-worker.js": "/react-mario-maker-bingo/service-worker.js",
+    "static/css/main.6dbc20d2.chunk.css.map": "/react-mario-maker-bingo/static/css/main.6dbc20d2.chunk.css.map",
+    "static/js/2.385997b5.chunk.js.LICENSE.txt": "/react-mario-maker-bingo/static/js/2.385997b5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-mario-maker-bingo/static/media/background.8ed0096d.png",
+    "static/media/goomba.webp": "/react-mario-maker-bingo/static/media/goomba.e08e6353.webp",
+    "static/media/bingo.css": "/react-mario-maker-bingo/static/media/super-mario-maker.52d3b43a.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.e087d9e9.js",
-    "static/js/2.f26d1a5d.chunk.js",
-    "static/css/main.be4dae3e.chunk.css",
-    "static/js/main.6db74537.chunk.js"
+    "static/js/runtime-main.bca092e1.js",
+    "static/js/2.385997b5.chunk.js",
+    "static/css/main.6dbc20d2.chunk.css",
+    "static/js/main.bcd09c6f.chunk.js"
   ]
 }
