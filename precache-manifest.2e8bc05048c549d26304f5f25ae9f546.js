@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02752d232807897f92f46a86dc227a0e",
+    "revision": "3a2d2a1e83a0f93c3672cd53ff9f4d10",
     "url": "/react-mario-maker-bingo/index.html"
   },
   {
-    "revision": "0d148179287b1982739b",
+    "revision": "5a481b29cc5a767e217a",
     "url": "/react-mario-maker-bingo/static/css/main.6dbc20d2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-mario-maker-bingo/static/js/2.385997b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d148179287b1982739b",
-    "url": "/react-mario-maker-bingo/static/js/main.7a07f86c.chunk.js"
+    "revision": "5a481b29cc5a767e217a",
+    "url": "/react-mario-maker-bingo/static/js/main.019b7281.chunk.js"
   },
   {
     "revision": "79ea6b5b968238472947",

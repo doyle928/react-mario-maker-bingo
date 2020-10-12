@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-mario-maker-bingo/static/css/main.6dbc20d2.chunk.css",
-    "main.js": "/react-mario-maker-bingo/static/js/main.7a07f86c.chunk.js",
-    "main.js.map": "/react-mario-maker-bingo/static/js/main.7a07f86c.chunk.js.map",
+    "main.js": "/react-mario-maker-bingo/static/js/main.019b7281.chunk.js",
+    "main.js.map": "/react-mario-maker-bingo/static/js/main.019b7281.chunk.js.map",
     "runtime-main.js": "/react-mario-maker-bingo/static/js/runtime-main.bca092e1.js",
     "runtime-main.js.map": "/react-mario-maker-bingo/static/js/runtime-main.bca092e1.js.map",
     "static/js/2.385997b5.chunk.js": "/react-mario-maker-bingo/static/js/2.385997b5.chunk.js",
     "static/js/2.385997b5.chunk.js.map": "/react-mario-maker-bingo/static/js/2.385997b5.chunk.js.map",
     "index.html": "/react-mario-maker-bingo/index.html",
-    "precache-manifest.947fca6e4a2b94663e26933aa453bd20.js": "/react-mario-maker-bingo/precache-manifest.947fca6e4a2b94663e26933aa453bd20.js",
+    "precache-manifest.2e8bc05048c549d26304f5f25ae9f546.js": "/react-mario-maker-bingo/precache-manifest.2e8bc05048c549d26304f5f25ae9f546.js",
     "service-worker.js": "/react-mario-maker-bingo/service-worker.js",
     "static/css/main.6dbc20d2.chunk.css.map": "/react-mario-maker-bingo/static/css/main.6dbc20d2.chunk.css.map",
     "static/js/2.385997b5.chunk.js.LICENSE.txt": "/react-mario-maker-bingo/static/js/2.385997b5.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.bca092e1.js",
     "static/js/2.385997b5.chunk.js",
     "static/css/main.6dbc20d2.chunk.css",
-    "static/js/main.7a07f86c.chunk.js"
+    "static/js/main.019b7281.chunk.js"
   ]
 }
