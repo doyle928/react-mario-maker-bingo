@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-mario-maker-bingo/precache-manifest.db20d60a008f0a41794fc43e5373951a.js"
+  "/react-mario-maker-bingo/precache-manifest.8e3d5f0170e1c34aae641fad33c10344.js"
 );
 
 self.addEventListener('message', (event) => {

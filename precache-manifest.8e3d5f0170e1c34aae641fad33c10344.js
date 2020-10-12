@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca4575f827ae65e8fec8b74dfde8fd9a",
+    "revision": "273d3ec703cc382ac73356a47a08628e",
     "url": "/react-mario-maker-bingo/index.html"
   },
   {
