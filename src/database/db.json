@@ -1,0 +1,369 @@
+{
+    "cards": [
+        {
+            "card": "p balloon",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "first try clear",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "thx at end",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "dev star",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "poison mushroom",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "trick level / uno mas",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "underwater level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "car level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "boss with wings",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "link powerup",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "vertical level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "on / off auto cycle",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "kill every possible enemy",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "first clear",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "precision level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "mandatory yoshi kill",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "troll level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "troll pipe / door",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "enemy spam",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "sound effects everywhere",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "art / picture",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "bring yoshi to the goal",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "tech level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "pick a door / pipe",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "1-1 remake",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "collect all coins",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "music level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "softlock with no way to die",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "infinite fire flower boss fight",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "no checkpoints (without clear condition)",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "enemy spam (with star)",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "good level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "builder / superball level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "themed after another game",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "kaizo blocks",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "level can be cheesed",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "auto mario level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "\"first level\" in title",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "meowser or boom-boom",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "title level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "naked pipe",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "no checkpoints or clear condition",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "terribly named level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "kills mario at start",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "on / off blocks",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "dev exit",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "smb2 mushroom",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "Big mario powerup",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "died to kaizo block",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "puzzle level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "themed after another game",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "first try clear",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "first try clear",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "top of the flagpole",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "auto scroller",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "dark level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "frog / acorn / cape",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "boss chamber",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "forced waiting",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "multiplayer level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "leap of faith jump",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "get world record",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "4 lane mulitplayer",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "title in foreign language",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "cheese a level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "bowser",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "speedrun level",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "creator from asia",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "creator from europe",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "creator from south america",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "creator from africa",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "creator from oceania",
+            "selected": false,
+            "use": true
+        },
+        {
+            "card": "creator from north america",
+            "selected": false,
+            "use": true
+        }
+    ]
+}
