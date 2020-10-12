@@ -4,6 +4,7 @@ import Bingo from './Bingo/Bingo';
 import goomba from "../styles/images/goomba.webp";
 import useContainerDimensions from "../hooks/useContainerDimensions";
 import AnimationControls from './AnimationControls/AnimationControls';
+console.disableYellowBox = true;
 
 function App() {
   const [paused, setPaused] = useState(false);

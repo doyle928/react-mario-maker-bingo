@@ -1,21 +1,67 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import Square from "../Square";
 import db from "../../../../database/db.json";
 import _ from "lodash";
 
 function Board(props) {
 
+  const limitArrayTo24 = useCallback((arr) => {
+    let newArr = arr;
+    shuffleArray(newArr);
+
+    if (newArr.length > 25) newArr = _.take(newArr, 24);
+    else {
+      while (newArr.length < 25) {
+        newArr.push({ card: "free space", selected: true })
+      }
+      shuffleArray(newArr);
+    }
+
+    newArr = addFreeSpace(newArr);
+
+    return newArr;
+  }, [])
+
+  const getLocalStorageOrDB = useCallback((refreshBoard) => {
+    let arr = [];
+
+    if (refreshBoard) arr = localStorage.getItem('settings')
+      ? returnUseOnly(JSON.parse(localStorage.getItem('settings')))
+      : limitArrayTo24(_.cloneDeep(db.cards));
+
+    else arr = localStorage.getItem('board')
+      ? JSON.parse(localStorage.getItem('board'))
+      : localStorage.getItem('settings')
+        ? returnUseOnly(JSON.parse(localStorage.getItem('settings')))
+        : limitArrayTo24(_.cloneDeep(db.cards));
+
+    function returnUseOnly(baseArr) {
+      let storageArr = [];
+
+      baseArr.forEach(item => {
+        if (item.use) storageArr.push(item)
+      })
+
+      storageArr = limitArrayTo24(storageArr)
+
+      return storageArr;
+    }
+
+    return arr;
+  }, [limitArrayTo24])
+
   const [refresh, setRefresh] = useState(false)
   const [bingoCards, setBingoCards] = useState(getLocalStorageOrDB(false))
 
-  // let bingoCards = getLocalStorageOrDB(false);
 
-  const shuffleArray = (array) => {
+  function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
     }
   }
+
+
 
   const clickCallback = e => {
     let foundCard = _.indexOf(bingoCards, e);
@@ -33,28 +79,15 @@ function Board(props) {
 
   }
 
-  function getLocalStorageOrDB(refreshBoard) {
-    let arr = [];
-
-    if (refreshBoard) arr = localStorage.getItem('settings')
-      ? returnUseOnly(JSON.parse(localStorage.getItem('settings')))
-      : _.cloneDeep(db.cards);
-
-    else arr = localStorage.getItem('board')
-      ? JSON.parse(localStorage.getItem('board'))
-      : localStorage.getItem('settings')
-        ? returnUseOnly(JSON.parse(localStorage.getItem('settings')))
-        : _.cloneDeep(db.cards);
-
-    function returnUseOnly(baseArr) {
-      let storageArr = [];
-      baseArr.forEach(item => {
-        if (item.use) storageArr.push(item)
-      })
-      return storageArr
+  function addFreeSpace(arr) {
+    let newArr = arr;
+    if (_.find(newArr, ['card', "free space"])) {
+      newArr.splice(_.findIndex(newArr, ['card', "free space"]), 1)
+      newArr.splice(12, 0, { card: "free space", selected: true });
+    } else {
+      newArr.splice(12, 0, { card: "free space", selected: true });
     }
-
-    return arr;
+    return newArr;
   }
 
   useEffect(() => {
@@ -70,31 +103,13 @@ function Board(props) {
     function shuffleBingoAndStore() {
 
       let arr = getLocalStorageOrDB(true);
-      shuffleArray(arr)
+      // shuffleArray(arr);
 
-      if (_.find(arr, ['card', "free space"])) {
-        arr.splice(_.findIndex(arr, ['card', "free space"]), 1)
-        if (arr.length < 24) arr = limitArrayTo24(arr);
-        arr.splice(12, 0, { card: "free space", selected: true });
-      } else {
-        if (arr.length < 24) arr = limitArrayTo24(arr);
-        arr.splice(12, 0, { card: "free space", selected: true });
-      }
       localStorage.setItem("board", JSON.stringify(arr));
       setBingoCards(arr);
 
-      function limitArrayTo24(arr) {
-        let newArr = arr;
-
-        while (newArr.length < 24) {
-          newArr.push({ card: "free space", selected: true })
-        }
-        shuffleArray(newArr)
-        return newArr;
-      }
-
     }
-  }, [bingoCards, props])
+  }, [bingoCards, props, getLocalStorageOrDB])
 
 
   const cardRow = rowNumber => {
